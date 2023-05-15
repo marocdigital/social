@@ -4,8 +4,8 @@
 import facebook
 
 def GetPageInfos() :
-    id = '109105195512089'
-    access_token = 'EAALGGR827TQBAG8BT6nNY3g06FPrjDrOUnuWyHrMb4ik0U26MKQAqaPyZCAEHj2geRTRea6yjuUz3iQFXp2oBntTmxZAQt6L0wJBkWJihMIZBuv99uDpiX2C0kSgq8H13jpixUtpILwYHhLGOHHh7BEHRid0ogVAmqjCVy07YeNk2aBtrk6zG0zrHAJZAxIFRzlmgMvM3F1ZCluzXzXvX'
+    id = 'page_id'
+    access_token = 'access_token'
     graph = facebook.GraphAPI(access_token)
     profile = graph.get_object(id=id, fields='name,photos,access_token,followers_count,about,description,posts,phone,birthday,albums,picture,cover')
     print(f'''
