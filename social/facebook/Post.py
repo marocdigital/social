@@ -6,8 +6,8 @@
 import requests
 import facebook
 
-id = 'page_id'
-access_token = 'access_token'
+id = '109105195512089'
+access_token = 'EAALGGR827TQBAPFuRMZAlQF9TBT9WmIm8q4q4pHdN49Nd00ifnXpCZAeaxtW9CNOwQaDSpDNpulmqiVGhDBqHcTPoIsVoaOJ8ghx65XurlvqADRWlifyVmaLibYGU7taj5V1R13KNd1xF4zE8jBpES2Bvq7xPGbDi4WGLeezdRKsjV2En5MiKd18871ZCA7aKvr3jdOzgPw5IedJhHF'
 graph = facebook.GraphAPI(access_token)
 
 PostsGrph = graph.get_object(id=id, fields='posts')

@@ -1,7 +1,7 @@
 import facebook
 import requests
-id = 'page_id'
-access_token = 'access_token'
+id = '109105195512089'
+access_token = 'EAALGGR827TQBAPjDJ4iPkWE0g3GaDAzVlFLfjlciPlF74ZCyvshyYxsu9ZCVfnlymcQGDUoVjZBPYwNL4sn5n1pvZBhphTsQ6K26ZCgJO6C9zWu0S8SG5jI2EUSbkFhWNlZCsLSgYJZBxbVEY3HS5qUsuwyIeu2E3XZAHpaSem9vYmMCc7zOemsGnJL0KtdePSZBIh1uWGGLwzMTZAlfADEsrr'
 graph = facebook.GraphAPI(access_token)
 PostsGrph = graph.get_object(id=id, fields='posts{likes}')
 Posts = PostsGrph['posts']['data']
