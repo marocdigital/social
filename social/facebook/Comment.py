@@ -3,11 +3,13 @@
 #++++++++++++++++
 import requests
 import facebook
-id = '109105195512089'
-access_token = 'EAALGGR827TQBAPjDJ4iPkWE0g3GaDAzVlFLfjlciPlF74ZCyvshyYxsu9ZCVfnlymcQGDUoVjZBPYwNL4sn5n1pvZBhphTsQ6K26ZCgJO6C9zWu0S8SG5jI2EUSbkFhWNlZCsLSgYJZBxbVEY3HS5qUsuwyIeu2E3XZAHpaSem9vYmMCc7zOemsGnJL0KtdePSZBIh1uWGGLwzMTZAlfADEsrr'
+id = 'page_id'
+access_token = 'access_token'
 graph = facebook.GraphAPI(access_token)
 posts = graph.get_object(id=id, fields='posts')
 Posts = posts['posts']['data']
+
+#get Count of comments
 def get_post_comments():
     i = 1
     for post in Posts :

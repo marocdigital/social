@@ -7,7 +7,7 @@ Python Project to becnhmark social presence
 # Facebook Scraper 🤖
 
 <p align="center">
-<img src="header.png">
+<img src="images/header.png">
 </p>****
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
